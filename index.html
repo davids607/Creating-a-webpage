@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <!-- Link to the external CSS file-->
+    <link rel="stylesheet" href="styles.css">
+     <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        
+        }
+ </style>  
+ <script>     
+    function naviggateToForm() {
+        document.getElementById("form").scrollIntoView();
+    }
+     </script>
+</head>
+<body
+  <h1>Welcome to My Webpage</h1>
+   <p>This is a simple web project to test HTML, CSS, and JacaScript.</p>
+
+   <!-- Example image-->
+    <img src="image.jpg" alt A description of the image content">
+<!-- Form section-->
+       <form id="form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <button onclick ="naviggateToForm()">GO to Form</button>
+    <!-- Button that will take the user to the form when clicked-->
+     <script>
+        const button = document.getElementById("my button");
+        button.addEventListener("click", function() {})
+          button.style.backgroundColor = "blue";
+
+
+      });
+    </script>
+    <!-- Link to the External script.js file-->
+     <script src="script.js"></script>
+</body>
+</html>
